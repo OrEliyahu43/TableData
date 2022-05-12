@@ -1,28 +1,57 @@
-body{
-    display:flex;
+body {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(bg-image.jpg) no-repeat center center/cover;
+    color: rgb(217, 214, 214);
 }
 
-h1{
+h1 {
     text-align: center;
+    font-family: 'Titan One';
+    color: rgb(217, 214, 214);
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-shadow: 10px 10px 20px rgb(150, 150, 150);
 }
 
-
-table{
-border:2px solid black;
-text-align: center;
-width: 100rem;
-
+table {
+    /* border:2px solid black; */
+    text-align: center;
+    width: 80%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 17px;
+    text-shadow: 10px 10px 20px rgb(87, 87, 87);
+    height: 60%;
 }
 
-th{
-    border:2px solid black;
+th {
+    text-shadow: 10px 10px 20px rgb(0, 0, 0);
 }
 
-td{
-
-    border:2px solid black;
-
+td {
+    /* border:2px solid black; */
+    /* text-shadow: 10px 10px 20px rgb(86, 214, 165); */
+    background: radial-gradient(#93DF86, #41C79A);
+    border-radius: 7px;
+    padding: 5px;
 }
+
+button {
+    font-family: 'Secular One', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+input {
+    background: none;
+    text-align: center;
+    border: none;
+    width: 80%;
+    font-size: 17px;
+    text-shadow: 10px 10px 20px rgb(87, 87, 87);
+    font-family: 'Secular One', sans-serif;
+}
+
